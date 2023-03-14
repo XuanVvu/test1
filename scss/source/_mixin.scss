@@ -1,0 +1,12 @@
+@mixin flex() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@mixin col($width) {
+    width: $width;
+    padding: 0 15px;
+    
+}
